@@ -1,24 +1,31 @@
 name: Build & Deploy Hugo
+
 on:
   push:
-    branches: [ master ]   # oder main, falls dein Branch so heißt
+    branches: [ master ]   # oder main, je nachdem wie dein Branch heißt
   workflow_dispatch:
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    permissions: { contents: write }
+    permissions:
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
         with:
           submodules: true
           fetch-depth: 0
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.147.0'
           extended: true
+
       - name: Build
         run: hugo --minify
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
