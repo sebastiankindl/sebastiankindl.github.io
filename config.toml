@@ -39,11 +39,30 @@ canonifyURLs = true
   tag = "tags"
 
 [menu]
-  [[menu.main]]; name = "Home";          url = "/";         weight = 1
-  [[menu.main]]; name = "Über mich";     url = "/about/";   weight = 2
-  [[menu.main]]; name = "Projekte";      url = "/projects/";weight = 3
-  [[menu.main]]; name = "Bachelorarbeit";url = "/thesis/";  weight = 4
-  [[menu.main]]; name = "Blog";          url = "/blog/";    weight = 5
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Über mich"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Projekte"
+    url = "/projects/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Bachelorarbeit"
+    url = "/thesis/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 5
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
