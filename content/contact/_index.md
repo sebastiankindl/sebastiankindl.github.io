@@ -3,9 +3,8 @@ title: "Contact"
 draft: false
 ---
 
-Schreib mir gern:
-- 📧 **E-Mail:** sebastiankindl@…
-- �� **LinkedIn:** …
-- 💻 **GitHub:** https://github.com/sebastiankindl
+Feel free to reach out via email or connect with me on LinkedIn and GitHub:
 
-<!-- Optional: simples Formular via Formspree/Netlify; später nachrüstbar -->
+- **E-Mail:** sebastiankindl@outlook.com
+- **LinkedIn:** https://linkedin.com/sebastiankindl
+- **GitHub:** https://github.com/sebastiankindl

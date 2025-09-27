@@ -1,6 +1,6 @@
 ---
-title: "Sebastian Kindl - Curriculum Vitae"
+title: "CV - Sebastian Kindl"
 draft: false
 ---
 
-PDF einfügen
+{{< pdf src="/files/cv.pdf" height="900" >}}

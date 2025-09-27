@@ -21,7 +21,7 @@ canonifyURLs = true
   ShowShareButtons = true
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
-  ShowBreadCrumbs = true
+  ShowBreadCrumbs = false
   ShowWordCount = true
   ShowToc = true
   customCSS = ["css/profile.css"]
@@ -53,6 +53,18 @@ canonifyURLs = true
   [[params.socialIcons]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/sebastiankindl/"
+
+  [[params.socialIcons]]
+    name = "whatsapp"
+    url = "https://wa.me/436644159165"
+
+  [[params.socialIcons]]
+    name = "medium"
+    url = "https://medium.com/@sebastian.kindl"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:sebastian.kindl@outlook.com"
 
 [taxonomies]
   category = "categories"
