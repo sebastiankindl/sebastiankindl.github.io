@@ -3,4 +3,7 @@ title: "CV - Sebastian Kindl"
 draft: false
 ---
 
-{{< pdf src="/files/cv.pdf" height="900" >}}
+You can download my CV here:  
+[📄 Download CV](/files/cv.pdf)
+
+![CV](/cv.png)

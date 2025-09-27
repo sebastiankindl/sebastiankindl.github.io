@@ -8,3 +8,46 @@ h2 { scroll-margin-top: 80px; } /* sauberes Ankern unter fixem Header */
   object-fit: cover;  /* passt das Bild ins Format */
   object-position: 30% 70%; /* nach links unten verschieben */
 }
+
+.img-small { width: 300px; }
+.img-right { float: right; margin: 0 0 1em 1em; }
+
+/* 1) LISTENANSICHT (projects Übersicht / Cards) */
+.list .post-entry .entry-cover img {
+  height: 250px;           /* Höhe der Thumbnails */
+  width: 40%;
+  object-fit: cover;       /* Zuschneiden statt verzerren */
+  object-position: 30% 40%;/* Bildausschnitt (x% y%) – hier leicht nach oben */
+  border-radius: 12px;
+}
+
+/* 2) DETAILSEITE (einzelnes Projekt) */
+.post-single .post-cover img {
+  max-height: 420px;       /* Deckel drauf – nicht zu groß */
+  width: 100%;
+  object-fit: cover;       /* oder: contain, wenn du alles sehen willst */
+  object-position: 50% 40%;
+  border-radius: 12px;
+}
+
+/* optional: Detailseite enger machen */
+.post-single .post-cover {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.project-hero {
+  display: flex;
+  align-items: center;
+  gap: 1rem;              /* Abstand zwischen Bild und Text */
+}
+
+.project-hero img {
+  width: 200px;           /* gewünschte Bildbreite */
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-text {
+  flex: 1;                /* Text nimmt den restlichen Platz */
+}
