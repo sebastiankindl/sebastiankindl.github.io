@@ -1,0 +1,12 @@
+# Hugo build output
+/public/
+/resources/_gen/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+
+# Installer / Binary files
+*.deb
+*.exe
+*.zip
