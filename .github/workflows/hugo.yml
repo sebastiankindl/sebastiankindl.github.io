@@ -2,7 +2,7 @@ name: Build & Deploy Hugo
 
 on:
   push:
-    branches: [ master ]   # oder main, je nachdem wie dein Branch heißt
+    branches: [ master ]   # oder main – nimm deinen Branchnamen
   workflow_dispatch:
 
 jobs:
@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true   # wichtig für PaperMod
+          submodules: true
           fetch-depth: 0
 
       - name: Setup Hugo

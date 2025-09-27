@@ -1,8 +1,6 @@
 ---
-title: "Content Placeholder"
-build:
-  render: never
-  list: never
-  publishResources: false
+title: "Projects"
+draft: false
 ---
 
+Here I will list some of my projects ...

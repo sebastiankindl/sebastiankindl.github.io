@@ -9,7 +9,10 @@ canonifyURLs = true
 [pagination]
   pagerSize = 10
 
-# Für PaperMod (Dark/Light automatisch)
+# Blog-URLs sollen /blog/... heißen (nicht /posts/):
+[permalinks]
+  blog = "/blog/:slug/"
+
 [params]
   description = "Blog & Portfolio: Machine Learning, Physics & Digital Freedom"
   author = "Sebastian Kindl"
@@ -21,61 +24,26 @@ canonifyURLs = true
   ShowBreadCrumbs = true
   ShowWordCount = true
   ShowToc = true
-  comments = false
 
-  # Startseiten-Intro (PaperMod)
   [params.homeInfoParams]
     Title = "Hi, I'm Sebastian 👋"
-    Content = "Technical Physics @ TU Wien • ML/AI • Computational Materials. Here I share my thesis highlights, projects, and notes."
+    Content = "Technical Physics @ TU Wien • ML/AI • Computational Materials. Thesis highlights, projects, and notes."
 
-  # (Optional) Social Icons – URLs anpassen/ergänzen
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/sebastiankindl"
-  [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/DEIN-LINKEDIN/"
-  [[params.socialIcons]]
-    name = "email"
-    url = "mailto:DEINE-MAIL@…"
+  # weitere Socials hier…
 
-# Taxonomien für Blog
 [taxonomies]
   category = "categories"
   tag = "tags"
 
-# Menüs (Header)
 [menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
+  [[menu.main]]; name = "Home";          url = "/";         weight = 1
+  [[menu.main]]; name = "Über mich";     url = "/about/";   weight = 2
+  [[menu.main]]; name = "Projekte";      url = "/projects/";weight = 3
+  [[menu.main]]; name = "Bachelorarbeit";url = "/thesis/";  weight = 4
+  [[menu.main]]; name = "Blog";          url = "/blog/";    weight = 5
 
-  [[menu.main]]
-    identifier = "about"
-    name = "Über mich"
-    url = "/about/"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projekte"
-    url = "/projects/"
-    weight = 3
-
-  [[menu.main]]
-    identifier = "thesis"
-    name = "Bachelorarbeit"
-    url = "/thesis/"
-    weight = 4
-
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
-    weight = 5
-
-# Für integrierte Suche/JSON (PaperMod)
 [outputs]
   home = ["HTML", "RSS", "JSON"]
