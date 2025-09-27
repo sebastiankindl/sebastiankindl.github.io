@@ -1,6 +1,6 @@
 baseURL = "https://sebastiankindl.github.io/"
 languageCode = "en"
-title = "Sebastian Kindl – Portfolio"
+title = "Sebastian Kindl"
 theme = "PaperMod"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
@@ -24,18 +24,21 @@ canonifyURLs = true
   ShowBreadCrumbs = true
   ShowWordCount = true
   ShowToc = true
+  customCSS = ["css/profile.css"]
 
   # 👉 Hero mit Buttons (statt „Über mich“-Seite)
   [params.profileMode]
     enabled = true
     title = "Sebastian Kindl"
-    subtitle = "Technical Physics @ TU Wien • ML/AI • Computational Materials"
-    imageUrl = "/images/avatar.jpg"        # optional
+    subtitle = "Technical Physics @ TU Wien • ML/AI"
+    imageUrl = "funny.PNG"        # optional
     imageTitle = "Sebastian"
+    imageWidth = 180
+    imageHeight = 250
     buttons = [
       { name = "Projects", url = "/projects/" },
       { name = "Thesis",   url = "/thesis/" },
-      { name = "Blog",     url = "/blog/" },
+      { name = "Curriculum Vitae",     url = "/cv/" },
       { name = "Contact",  url = "/contact/" }
     ]
 

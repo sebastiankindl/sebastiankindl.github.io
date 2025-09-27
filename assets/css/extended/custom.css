@@ -1,2 +1,10 @@
 .home .post-entry { margin-bottom: 1rem; }
 h2 { scroll-margin-top: 80px; } /* sauberes Ankern unter fixem Header */
+
+.profile img {
+  width: 200px;      /* Breite */
+  height: 200px;     /* Höhe */
+  border-radius: 50%; /* macht es rund */
+  object-fit: cover;  /* passt das Bild ins Format */
+  object-position: 30% 70%; /* nach links unten verschieben */
+}
