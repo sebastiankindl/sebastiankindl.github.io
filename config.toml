@@ -1,6 +1,6 @@
 baseURL = "https://sebastiankindl.github.io/"
 languageCode = "en"
-title = "Sebastian Kindl – Tech & Physics"
+title = "Sebastian Kindl – Portfolio"
 theme = "PaperMod"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
@@ -14,7 +14,7 @@ canonifyURLs = true
   blog = "/blog/:slug/"
 
 [params]
-  description = "Blog & Portfolio: Machine Learning, Physics & Digital Freedom"
+  description = "Portfolio of Sebastian Kindl"
   author = "Sebastian Kindl"
   defaultTheme = "auto"
   ShowReadingTime = true
@@ -26,13 +26,16 @@ canonifyURLs = true
   ShowToc = true
 
   [params.homeInfoParams]
-    Title = "Hi, I'm Sebastian 👋"
+    Title = ""
     Content = "Technical Physics @ TU Wien • ML/AI • Computational Materials. Thesis highlights, projects, and notes."
 
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/sebastiankindl"
-  # weitere Socials hier…
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/sebastiankindl/"
 
 [taxonomies]
   category = "categories"
