@@ -17,7 +17,7 @@ h2 { scroll-margin-top: 80px; } /* sauberes Ankern unter fixem Header */
   height: 250px;           /* Höhe der Thumbnails */
   width: 40%;
   object-fit: cover;       /* Zuschneiden statt verzerren */
-  object-position: 30% 40%;/* Bildausschnitt (x% y%) – hier leicht nach oben */
+  object-position: 50% 40%;/* Bildausschnitt (x% y%) – hier leicht nach oben */
   border-radius: 12px;
 }
 
@@ -51,3 +51,23 @@ h2 { scroll-margin-top: 80px; } /* sauberes Ankern unter fixem Header */
 .project-text {
   flex: 1;                /* Text nimmt den restlichen Platz */
 }
+
+/* Profile-Buttons untereinander anordnen */
+.profile .buttons {
+  display: flex;
+  flex-direction: column;   /* statt nebeneinander → untereinander */
+  align-items: center;      /* zentriert */
+  gap: 0.75rem;             /* Abstand zwischen den Buttons */
+}
+
+/* Buttons breiter machen (optional) */
+.profile .buttons a {
+  min-width: 200px;         /* alle gleich breit */
+  text-align: center;
+}
+
+#theme-toggle:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+

@@ -1,6 +1,6 @@
 baseURL = "https://sebastiankindl.github.io/"
 languageCode = "en"
-title = "Sebastian Kindl"
+title = "sebastian kindl"
 theme = "PaperMod"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
@@ -36,10 +36,10 @@ canonifyURLs = true
     imageWidth = 180
     imageHeight = 250
     buttons = [
-      { name = "Projects", url = "/projects/" },
-      { name = "Thesis",   url = "/thesis/" },
-      { name = "Curriculum Vitae",     url = "/cv/" },
-      { name = "Contact",  url = "/contact/" }
+      { name = "projects", url = "/projects/" },
+      { name = "thesis",   url = "/thesis/" },
+      { name = "curriculum Vitae",     url = "/cv/" },
+      { name = "contact",  url = "/contact/" }
     ]
 
   [params.homeInfoParams]
@@ -82,13 +82,17 @@ canonifyURLs = true
     url = "/projects/"
     weight = 2
   [[menu.main]]
+    name = "thesis"
+    url ="/thesis/"
+    weight = 3
+  [[menu.main]]
     name = "curriculum vitae"
     url = "/cv/"
-    weight = 3
+    weight = 4
   [[menu.main]]
     name = "contact"
     url = "/contact/"
-    weight = 4
+    weight = 5
 
 [outputs]
   home = ["HTML","RSS","JSON"]  # (für Suche)
