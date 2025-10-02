@@ -1,4 +1,5 @@
-baseURL = "https://sebastiankindl.github.io/"
+baseURL = "https://sebastiankindl.at/"
+# baseURL = "https://sebastiankindl.github.io/"
 languageCode = "en"
 title = "sebastian kindl"
 theme = "PaperMod"
