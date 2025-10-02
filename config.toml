@@ -17,7 +17,8 @@ canonifyURLs = true
 [params]
   description = "Portfolio of Sebastian Kindl"
   author = "Sebastian Kindl"
-  defaultTheme = "auto"
+  defaultTheme = "light"
+  disableThemeToggle = false
   ShowReadingTime = true
   ShowShareButtons = true
   ShowCodeCopyButtons = true
