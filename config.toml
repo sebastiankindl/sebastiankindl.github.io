@@ -32,7 +32,7 @@ canonifyURLs = true
   [params.profileMode]
     enabled = true
     title = "Sebastian Kindl"
-    subtitle = "Technical Physics @ TU Wien • ML/AI"
+    subtitle = "Technical Physics @ TU Wien"
     imageUrl = "/normal.png"        # optional
     imageTitle = "Sebastian"
     imageWidth = 180
