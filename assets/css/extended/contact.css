@@ -1,0 +1,45 @@
+/* Wrapper */
+.contact-form {
+  margin-top: 2rem;
+}
+
+/* Abstand zwischen Formular-Blöcken */
+.contact-form p {
+  margin-bottom: 1.6rem;
+}
+
+/* Labels */
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+/* Inputs & Textarea */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 720px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--entry);
+  color: var(--primary);
+  box-sizing: border-box;
+}
+
+/* Textarea etwas luftiger */
+.contact-form textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+/* Button Abstand */
+.contact-form button {
+  background: var(--primary);
+  color: var(--theme);
+  font-weight: 600;
+  margin-top: 0.5rem;
+  padding: 10px 16px;
+  border-radius: 12px;
+}

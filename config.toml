@@ -98,3 +98,8 @@ canonifyURLs = true
 
 [outputs]
   home = ["HTML","RSS","JSON"]  # (für Suche)
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
