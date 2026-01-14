@@ -37,7 +37,7 @@ canonifyURLs = true
     imageWidth = 180
     imageHeight = 250
     buttons = [
-      { name = "projects", url = "/projects/" },
+#      { name = "projects", url = "/projects/" },
       { name = "thesis", url = "/thesis/" },
       { name = "curriculum Vitae", url = "/cv/" },
       { name = "contact", url = "/contact/" }
