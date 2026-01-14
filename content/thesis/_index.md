@@ -1,5 +1,5 @@
 ---
-title: "Bachelor's Thesis"
+title: "Machine Learning Force Fields for Defective WSe2"
 draft: false
 cover:
   alt: "WSe2 defect & MLFF"
@@ -9,12 +9,13 @@ ShowReadingTime: false
 hideMeta: true
 ---
 
-# Machine Learning Force Fields for Defective WSe2
 ### Based on the Equivariant Graph Neural Network MACE
 
 ---
 
-Download my thesis [here](/files/thesis.pdf).
+Download my thesis as PDF [here](/files/thesis.pdf)
+
+---
 
 ## Abstract
 
@@ -24,9 +25,9 @@ Single-photon emitters in two-dimensional semiconductors, such as tungsten disel
 
 ## Highlights
 - Dataset: atomic configurations obtained by DFT calculations
-- Models: MACE (equivariant GNN)
+- Models: MACE (Equivariant Message Passing Graph Neural Network)
 - Validation: energies/forces, phonon DOS/PDOS, stability checks
-- Outcome: robust defect fingerprints; good transfer to larger supercells
+- Outcome: reliable and stable underlying workflow, good transfer to larger supercells
 
 ## Citation
 ```bibtex

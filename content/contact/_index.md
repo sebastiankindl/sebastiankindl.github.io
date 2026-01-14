@@ -5,6 +5,7 @@ draft: false
 
 Feel free to reach out via email or connect with me on LinkedIn and GitHub:
 
+<br>
 
 - **E-Mail:** [sebastiankindl@outlook.com](mailto:sebastian.kindl@outlook.com)
 - **LinkedIn:** https://linkedin.com/in/sebastiankindl

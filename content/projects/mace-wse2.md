@@ -1,10 +1,10 @@
 ---
-title: "Defect-Engineered WSe₂ – ML Force Fields"
+title: "Machine Learning Force Fields for Defective WSe2"
 date: 2025-07-25
 draft: false
-summary: "MACE/SO3krates auf DFT-Daten – Defekt-Phononen, PDOS, SPE-Relevanz."
+summary: "Equivariant GNN (MACE) trained on DFT data for defect-induced phonon modeling"
+tags: ["Machine Learning", "Research", "Physics"]
 cover:
-  image: "/wse2.png"
   alt: "WSe₂ phonons"
   relative: true
 ---

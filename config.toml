@@ -1,5 +1,4 @@
 baseURL = "https://sebastiankindl.at/"
-# baseURL = "https://sebastiankindl.github.io/"
 languageCode = "en"
 title = "sebastian kindl"
 theme = "PaperMod"
@@ -10,14 +9,14 @@ canonifyURLs = true
 [pagination]
   pagerSize = 10
 
-# Blog-URLs sollen /blog/... heißen (nicht /posts/):
+# Blog-URLs
 [permalinks]
   blog = "/blog/:slug/"
 
 [params]
   description = "Portfolio of Sebastian Kindl"
   author = "Sebastian Kindl"
-  defaultTheme = "light"
+  defaultTheme = "dark"
   disableThemeToggle = false
   ShowReadingTime = true
   ShowShareButtons = true
@@ -28,12 +27,12 @@ canonifyURLs = true
   ShowToc = true
   customCSS = ["css/profile.css"]
 
-  # 👉 Hero mit Buttons (statt „Über mich“-Seite)
+  # Profile
   [params.profileMode]
     enabled = true
     title = "Sebastian Kindl"
-    subtitle = "Technical Physics @ TU Wien"
-    imageUrl = "/normal.png"        # optional
+    subtitle = "Technical Physics graduate with a strong quantitative foundation in modeling, data analysis, and problem-solving. Experienced in machine learning and advanced analytics, with a proven ability to translate technical concepts into scalable, data-driven solutions for business, strategy, and decision-making."
+    imageUrl = "/photo.png"        # optional
     imageTitle = "Sebastian"
     imageWidth = 180
     imageHeight = 250
@@ -61,10 +60,6 @@ canonifyURLs = true
     url = "https://wa.me/436644159165"
 
   [[params.socialIcons]]
-    name = "medium"
-    url = "https://medium.com/@sebastian.kindl"
-
-  [[params.socialIcons]]
     name = "email"
     url = "mailto:sebastian.kindl@outlook.com"
 
@@ -72,17 +67,15 @@ canonifyURLs = true
   category = "categories"
   tag = "tags"
 
-# ... dein bestehendes oben lassen …
-
 [menu]
   [[menu.main]]
     name = "home"
     url = "/"
     weight = 1
-  [[menu.main]]
-    name = "projects"
-    url = "/projects/"
-    weight = 2
+#  [[menu.main]]
+#    name = "projects"
+#    url = "/projects/"
+#    weight = 2
   [[menu.main]]
     name = "thesis"
     url ="/thesis/"
@@ -97,7 +90,7 @@ canonifyURLs = true
     weight = 5
 
 [outputs]
-  home = ["HTML","RSS","JSON"]  # (für Suche)
+  home = ["HTML","RSS","JSON"]
 
 [markup]
   [markup.goldmark]

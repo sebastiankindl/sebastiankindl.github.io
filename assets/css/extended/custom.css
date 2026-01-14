@@ -1,10 +1,10 @@
 .home .post-entry { margin-bottom: 1rem; }
-h2 { scroll-margin-top: 80px; } /* sauberes Ankern unter fixem Header */
+h2 { scroll-margin-top: 80px; }
 
 .profile img {
   width: 200px;      /* Breite */
-  height: 200px;     /* Höhe */
-  border-radius: 50%; /* macht es rund */
+  height: 200px;     /* Hoehe */
+  border-radius: 50%; /* rundes Bild */
   object-fit: cover;  /* passt das Bild ins Format */
   object-position: 30% 70%; /* nach links unten verschieben */
 }
@@ -12,25 +12,25 @@ h2 { scroll-margin-top: 80px; } /* sauberes Ankern unter fixem Header */
 .img-small { width: 300px; }
 .img-right { float: right; margin: 0 0 1em 1em; }
 
-/* 1) LISTENANSICHT (projects Übersicht / Cards) */
+/* 1) Listenansicht Projects */
 .list .post-entry .entry-cover img {
   height: 250px;           /* Höhe der Thumbnails */
   width: 40%;
-  object-fit: cover;       /* Zuschneiden statt verzerren */
-  object-position: 50% 40%;/* Bildausschnitt (x% y%) – hier leicht nach oben */
+  object-fit: cover;       /* Zuschneiden */
+  object-position: 50% 40%;/* Bildausschnitt x y */
   border-radius: 12px;
 }
 
-/* 2) DETAILSEITE (einzelnes Projekt) */
+/* 2) Detailseite */
 .post-single .post-cover img {
-  max-height: 420px;       /* Deckel drauf – nicht zu groß */
+  max-height: 420px;
   width: 100%;
-  object-fit: cover;       /* oder: contain, wenn du alles sehen willst */
+  object-fit: cover;       /* oder contain, wenn du alles zu sehen sein soll */
   object-position: 50% 40%;
   border-radius: 12px;
 }
 
-/* optional: Detailseite enger machen */
+/* Detailseite schmaler machen */
 .post-single .post-cover {
   max-width: 900px;
   margin: 0 auto;
@@ -43,7 +43,7 @@ h2 { scroll-margin-top: 80px; } /* sauberes Ankern unter fixem Header */
 }
 
 .project-hero img {
-  width: 200px;           /* gewünschte Bildbreite */
+  width: 200px;           /* Bildbreite */
   height: auto;
   border-radius: 8px;
 }
@@ -52,15 +52,15 @@ h2 { scroll-margin-top: 80px; } /* sauberes Ankern unter fixem Header */
   flex: 1;                /* Text nimmt den restlichen Platz */
 }
 
-/* Profile-Buttons untereinander anordnen */
+/* Profile-Buttons untereinander */
 .profile .buttons {
   display: flex;
-  flex-direction: column;   /* statt nebeneinander → untereinander */
+  flex-direction: column;   /* untereinander */
   align-items: center;      /* zentriert */
-  gap: 0.75rem;             /* Abstand zwischen den Buttons */
+  gap: 0.75rem;             /* Abstand zwischen Buttons */
 }
 
-/* Buttons breiter machen (optional) */
+/* Buttons breiter machen */
 .profile .buttons a {
   min-width: 200px;         /* alle gleich breit */
   text-align: center;
